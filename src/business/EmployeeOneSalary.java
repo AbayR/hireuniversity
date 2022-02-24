@@ -2,7 +2,7 @@ package business;
 
 import employee.Employee;
 
-public class EmployeeOneSalary extends SalaryCalculator{
+public class EmployeeOneSalary extends SalaryCalculator /*inheritance this is child class of the parent salary class*/{
     public void calculateNetSalary(Employee e, int actualSalary){
         int grossSalary = getGrossSalary(e,actualSalary);
         int tax = 10000;

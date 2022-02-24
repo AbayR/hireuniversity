@@ -2,7 +2,7 @@ package business;
 
 import employee.Employee;
 
-public class EmployeeTwoSalary extends SalaryCalculator{
+public class EmployeeTwoSalary extends SalaryCalculator /*parenting this is child class of the salary calculator class*/{
     public void calculateNetSalary(Employee e, int actualSalary){
         int grossSalary = getGrossSalary(e,actualSalary);
         int tax = 20000;

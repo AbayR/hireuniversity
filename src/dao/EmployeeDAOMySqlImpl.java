@@ -7,7 +7,7 @@ import java.sql.*;
 import java.util.LinkedList;
 import java.util.List;
 
-public class EmployeeDAOMySqlImpl implements IEmployeeDAO{
+public class EmployeeDAOMySqlImpl implements IEmployeeDAO /*polymorphism to use the methods created in parent class in this class*/{
 
     private Connection cn = null;
     private PreparedStatement pst = null;
@@ -28,6 +28,7 @@ public class EmployeeDAOMySqlImpl implements IEmployeeDAO{
         }
 
     }
+    /* CRUD Operations*/
     @Override
     public void addEmployee(Employee e) {
         int i = 0;

@@ -11,7 +11,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args){
         IEmployeeService eservice = new EmployeeServiceImpl();
-        eservice.addEmployee(new Employee(11, "Abay", "Professor", 30));
+        eservice.addEmployee(new Employee(11, "Abay", "Professor", 30)); /*encapsulation*/
         eservice.addEmployee(new Employee(22, "Elnar", "Manager", 29));
         eservice.addEmployee(new Employee(33, "Abayka", "Teacher", 28));
         eservice.addEmployee(new Employee(44, "Elnarka", "PE", 27));
