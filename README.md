@@ -12,4 +12,4 @@ Second of all, we created the essential class called services, it connects the m
 Third of all, we created the business package, which contains several classes which are connected by inheritance (parent and child, parent is Salary calc, then two classes for first and second employee are child) the formula for finding the salary might be wrong, but it can be changed easily.
 Then the employee class, which calls the sql statements. Also inharitance. also it contains the encapsulation. 
 
-Done by Abay and Elnar, CS2101
+Done by Abay 
